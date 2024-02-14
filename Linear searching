@@ -1,0 +1,7 @@
+LINEAR SEARCH PROGRAM
+target=5
+num=[1,2,4,7,5,400]
+for i in range(len(num)):
+    if num[i]==target:
+        print("The searching element",target,"is present in the",i, "index")
+        
